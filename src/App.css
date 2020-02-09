@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  height: 100%
+}
+
+html,body{
+  height: 100%
 }
 
 .App-logo {
@@ -26,6 +31,69 @@
 
 .App-link {
   color: #61dafb;
+}
+.children{
+  background: #efeff4;
+  height: 100vh;
+  padding:0px;
+  position: relative;
+}
+.container{
+  height: 100vh
+}
+
+.clockFooter{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background: #f7f7f8
+
+}
+.clockHeader{
+  position: relative;
+  top: 0px;
+  width: 100%;
+  background: #f7f7f8
+
+}
+.text-left{
+  text-align: left
+}
+.text-right{
+  text-align: right
+}
+.error{
+  color:red
+}
+.removeIcon{
+  color:red;
+  font-size: 16px
+}
+
+.alarm-screen{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+}
+.h100{
+  height: 100%
+}
+.alaram-card{
+  background: black;
+  color: white
+}
+.alarm-screen {
+    height: 100%;
+    background: black;
+    color: white
+}
+.alarm-screen-div{
+  padding: 10%
+}
+
+.alarm-label{
+  font-size: 50px;
 }
 
 @keyframes App-logo-spin {
