@@ -87,7 +87,13 @@ const AlarmList = (props)=>{
             <>
              <Card>
                     <ListGroup variant="flush">
-                        {alarmListElement()}
+                    {alarmList && alarmList.length ?
+                        alarmListElement()
+                    :
+                    <ListGroup.Item >
+                       <div className = "no-alarm"> No Alarms Set</div>
+                    </ListGroup.Item>    
+                    }
                     </ListGroup>
                 </Card>
             </>

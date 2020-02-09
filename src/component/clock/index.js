@@ -1,6 +1,8 @@
 import React,{useState,useEffect} from 'react'
 import {Card} from 'react-bootstrap';
 import ClockFooter from '../common/clockfooter';
+import ClockHeader from '../common/clockheader';
+
 import {getDayOfWeek,getCurrentTIme,fetchCurrentAlarm} from '../../helper'
 import {getAlarm} from '../../storage'
 const Clock = (props)=>{
@@ -32,12 +34,12 @@ const Clock = (props)=>{
         return(
             <>
                 <Card className="text-center">
-                    <Card.Header>Clock</Card.Header>
+                    <ClockHeader title = "Clock" />
                     <Card.Body>
-                        <Card.Text>
+                        <Card.Text className = "clock-time">
                             {time}
                         </Card.Text>
-                        <Card.Text>
+                        <Card.Text className = "clock-date">
                             {date}
                         </Card.Text>
                     </Card.Body>

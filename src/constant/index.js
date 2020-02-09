@@ -41,7 +41,7 @@ export const soundArray = [
                 {
                     id:1,
                     name:'None',
-                    sound:Beep
+                    sound:''
                 },
                 {
                     id:2,

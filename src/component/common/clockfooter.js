@@ -8,15 +8,17 @@ const ClockFooter = (props)=>{
         return(
             <div className = "clockFooter">
                 <Row>   
-                    <Col>
-                        <Button href="#" variant="link" size="lg">
+                    <Col xs = {6}>
+                        <Button href="#" onClick = {()=>history.push('/')} variant="link" size="lg">
                             Clock
                         </Button>
                     </Col>
-                    <Col>
+                    <Col xs = {6}>
+                        {!props.disabledAlarm &&
                         <Button onClick = {()=>history.push('/alarmList')} href="#" variant="link" size="lg">
                             Alarm
                         </Button>
+                        }
                     </Col>
                 </Row>
             </div>

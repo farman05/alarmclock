@@ -15,7 +15,14 @@ export default function validate(values) {
     if (!values.day) {
         errors.day = 'Day is required';
     }
+
+    if (!values.sound) {
+        errors.sound = 'Sound is required';
+    }
   
+    if (!values.label) {
+        errors.label = 'Label is required';
+    }
 
     return errors;
 }

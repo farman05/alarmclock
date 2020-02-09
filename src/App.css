@@ -96,6 +96,35 @@ html,body{
   font-size: 50px;
 }
 
+.clock-date{
+  font-size: 25px;
+    color: #999;
+}
+.clock-time{
+  font-size: 40px
+}
+
+.mt15{
+  background:#f7f7f8
+}
+
+.alrDiv{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 25px;
+    padding:2%
+    /* margin-bottom: 5%; */
+}
+
+.header-title{
+  margin-top: 5%;
+  font-size: 18px
+}
+
+
+.no-alarm{
+  font-size: 50px
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

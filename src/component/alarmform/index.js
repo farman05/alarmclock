@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import {Card,Row,Col,Form,ListGroup,Button} from 'react-bootstrap'
 import {daysArray,soundArray} from '../../constant';
+import ClockHeader from '../common/clockheader';
 import validation from './validation';
 import useForm from './useForm'
 import {setAlarm,removeAllAlarm,getAlarm,updateAlarm,removeSingleAlarm} from '../../storage'
@@ -190,10 +191,8 @@ const AlarmForm = (props)=>{
             <>
             <Form onSubmit={handleSubmit} noValidate>
              <Card>
+                <ClockHeader leftTitle = {"Cancel"} leftFunc = { ()=>{props.history.push('/alarmList')} } title = {"Add/Edit Alarm"}/>  
                 <Card.Body>
-                    <Card.Title className = "text">Card Title</Card.Title>
-                    <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                    
                             <Row>    
                                 <Col xs = {4}>
                                     <Form.Group controlId="exampleForm.ControlSelect1">
@@ -243,15 +242,28 @@ const AlarmForm = (props)=>{
                                 <Col xs = {8}>
                                 <Form.Group controlId="formBasicCheckbox">
                                         <Form.Control name = "label"  value = {values.label || ''}  onChange = {handleChange}  type="text"  />
+                                    <ErrorDiv name = "label" />
+                                
                                 </Form.Group>
                                 </Col>
                             </Row>
                     {/* </Card.Text> */}
                 </Card.Body>
             </Card>
-            <ErrorDiv name = "day" />
-            {dayList()}
-            {soundList()}
+            <div className = "mt15">
+                <div className = "alrDiv">
+                    Repeat Time
+                </div>    
+                <ErrorDiv name = "day" />
+                {dayList()}
+            </div>
+            <div className = "mt15">
+                <div className = "alrDiv">
+                    Sound
+                </div>
+                <ErrorDiv name = "sound" />
+                {soundList()}
+            </div>
             <div>
                 <Button variant="outline-primary" type = "submit"  block>{isEdit ? 'Update' : 'Save'}</Button>
             </div>
