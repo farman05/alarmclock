@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/alarmclock/static/css/main.cebc02d2.chunk.css",
-    "main.js": "/alarmclock/static/js/main.51187690.chunk.js",
-    "main.js.map": "/alarmclock/static/js/main.51187690.chunk.js.map",
+    "main.js": "/alarmclock/static/js/main.64c2f97b.chunk.js",
+    "main.js.map": "/alarmclock/static/js/main.64c2f97b.chunk.js.map",
     "runtime-main.js": "/alarmclock/static/js/runtime-main.eac77109.js",
     "runtime-main.js.map": "/alarmclock/static/js/runtime-main.eac77109.js.map",
     "static/css/2.47e06e2e.chunk.css": "/alarmclock/static/css/2.47e06e2e.chunk.css",
     "static/js/2.14ea380e.chunk.js": "/alarmclock/static/js/2.14ea380e.chunk.js",
     "static/js/2.14ea380e.chunk.js.map": "/alarmclock/static/js/2.14ea380e.chunk.js.map",
     "index.html": "/alarmclock/index.html",
-    "precache-manifest.763570d7d1328b647cf3e545cd67b36b.js": "/alarmclock/precache-manifest.763570d7d1328b647cf3e545cd67b36b.js",
+    "precache-manifest.ea6c44e433fcac91bb168bb080b86229.js": "/alarmclock/precache-manifest.ea6c44e433fcac91bb168bb080b86229.js",
     "service-worker.js": "/alarmclock/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/alarmclock/static/css/2.47e06e2e.chunk.css.map",
     "static/css/main.cebc02d2.chunk.css.map": "/alarmclock/static/css/main.cebc02d2.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.14ea380e.chunk.js",
     "static/css/main.cebc02d2.chunk.css",
-    "static/js/main.51187690.chunk.js"
+    "static/js/main.64c2f97b.chunk.js"
   ]
 }
