@@ -5,19 +5,19 @@ import AlarmForm from '../component/alarmform'
 
 export var routes = [
     {
-        path: process.env.PUBLIC_URL+'/',
+        path: '/',
         component: Home,
     },
     {
-        path: process.env.PUBLIC_URL+'/alarmList',
+        path: '/alarmList',
         component: AlarmList,
     },
     {
-        path: process.env.PUBLIC_URL+ '/addAlarm',
+        path:  '/addAlarm',
         component: AlarmForm,
     },
     {
-        path: process.env.PUBLIC_URL+'/editAlarm/:id',
+        path: '/editAlarm/:id',
         component: AlarmForm,
     },
     

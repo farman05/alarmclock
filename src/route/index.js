@@ -9,7 +9,7 @@ import Layout from '../component/layout'
 const RouterApp = (props) => {
     return (
         <div className="App">
-            <Router>
+            <Router  basename={process.env.PUBLIC_URL}>
                 <Suspense fallback={<div>Loading...</div>}>
                     <Switch>
                         <Layout>
