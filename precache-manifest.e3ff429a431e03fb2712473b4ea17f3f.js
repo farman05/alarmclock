@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9b2c4f3fbd012c3886cc1043555d563",
+    "revision": "1795debf9fb4cd8a6d4fbfd3c88b3b92",
     "url": "/alarmclock/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alarmclock/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "c90bd92acd938b654c21",
+    "revision": "4084fea5f8f827bdb560",
     "url": "/alarmclock/static/css/main.cebc02d2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/alarmclock/static/js/2.14ea380e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c90bd92acd938b654c21",
-    "url": "/alarmclock/static/js/main.64c2f97b.chunk.js"
+    "revision": "4084fea5f8f827bdb560",
+    "url": "/alarmclock/static/js/main.3ac99bc4.chunk.js"
   },
   {
     "revision": "1cc0faf0617910dc0099",
